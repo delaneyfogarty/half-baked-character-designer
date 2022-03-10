@@ -80,6 +80,7 @@ function displayCatchphrases() {
         const div = document.createElement('div');
         div.classList.add('catchphrase');
         div.textContent = catchphrase;
+        div.style.color = 'blue';
         catchphrasesEl.append(div);
     }
     // and for each catchphrase
